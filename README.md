@@ -1,2 +1,2 @@
-# papaja
-Papaja - Java Framework
+# Papaja
+Papaja - Libraries
