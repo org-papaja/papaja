@@ -1,7 +1,6 @@
 package org.papaja.commons.converter;
 
 import org.papaja.commons.converter.coder.*;
-import org.papajaframework.commons.converter.coder.*;
 
 public enum Format {
 
