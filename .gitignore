@@ -11,3 +11,5 @@ output/
 .factorypath
 .DS_Store
 *.private.properties
+*.releaseBackup
+release.properties
