@@ -24,7 +24,7 @@
         <apache.beanutils.version>1.9.3</apache.beanutils.version>
         <apache.io.version>2.4</apache.io.version>
         <apache.codec.version>1.13</apache.codec.version>
-        <jackson.version>2.9.9</jackson.version>
+        <jackson.version>2.9.10</jackson.version>
     </properties>
 
     <dependencies>
