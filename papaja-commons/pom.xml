@@ -9,14 +9,14 @@
     </parent>
 
     <artifactId>papaja-commons</artifactId>
-    <version>1.0.1-RELEASE-SNAPSHOT</version>
+    <version>1.0.0-RELEASE</version>
     <packaging>jar</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
 
     <scm>
-        <url>https://github.com/org-papaja/papaja-commons</url>
-        <connection>scm:git:git@github.com:org-papaja/papaja-commons.git</connection>
-        <tag>HEAD</tag>
+        <url>https://github.com/org-papaja/papaja</url>
+        <connection>scm:git:git@github.com:org-papaja/papaja.git</connection>
+        <tag>papaja-commons-1.0.0-RELEASE</tag>
     </scm>
 
     <properties>
