@@ -4,12 +4,12 @@
 
     <parent>
         <groupId>org.papaja</groupId>
-        <artifactId>papaja-parent</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <artifactId>papaja</artifactId>
+        <version>1.0.0-RC0</version>
     </parent>
 
     <artifactId>papaja-commons</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-RC0</version>
     <packaging>jar</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
 
@@ -20,12 +20,6 @@
         <apache.codec.version>1.13</apache.codec.version>
         <jackson.version>2.9.10</jackson.version>
     </properties>
-
-    <scm>
-        <url>https://github.com/org-papaja/papaja</url>
-        <connection>scm:git:git@github.com:org-papaja/papaja.git</connection>
-        <tag>HEAD</tag>
-    </scm>
 
     <dependencies>
         <dependency>

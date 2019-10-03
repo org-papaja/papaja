@@ -3,11 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.papaja</groupId>
-    <artifactId>papaja-parent</artifactId>
+    <artifactId>papaja</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-RC0</version>
     <name>${project.groupId}:${project.artifactId}</name>
 
+    <description>PajaJa Framework</description>
+    <organization>
+        <name>PapaJa</name>
+        <url>https://github.com/org-papaja/papaja</url>
+    </organization>
     <url>https://papaja.org/</url>
 
     <developers>
@@ -35,7 +40,7 @@
     <scm>
         <url>https://github.com/org-papaja/papaja</url>
         <connection>scm:git:git@github.com:org-papaja/papaja.git</connection>
-        <tag>HEAD</tag>
+        <tag>papaja-1.0.0-RC0</tag>
     </scm>
 
     <distributionManagement>
