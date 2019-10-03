@@ -5,13 +5,14 @@
     <parent>
         <groupId>org.papaja</groupId>
         <artifactId>papaja</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.0.0-RC0</version>
     </parent>
 
     <artifactId>papaja-commons</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-RC0</version>
     <packaging>jar</packaging>
-    <name>${project.groupId}:${project.artifactId}</name>
+
+    <name>PapaJa Commons</name>
 
     <properties>
         <apache.lang3.version>3.9</apache.lang3.version>

@@ -5,9 +5,9 @@
     <groupId>org.papaja</groupId>
     <artifactId>papaja</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1-SNAPSHOT</version>
-    <name>${project.groupId}:${project.artifactId}</name>
+    <version>1.0.0-RC0</version>
 
+    <name>PapaJa</name>
     <description>PajaJa Framework</description>
     <organization>
         <name>PapaJa</name>
@@ -31,6 +31,7 @@
     </licenses>
 
     <properties>
+        <gpg.keyname>6C8F8B5C8F7D5F93</gpg.keyname>
         <project.java.version>1.8</project.java.version>
         <timestamp>${maven.build.timestamp}</timestamp>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -40,7 +41,7 @@
     <scm>
         <url>https://github.com/org-papaja/papaja</url>
         <connection>scm:git:git@github.com:org-papaja/papaja.git</connection>
-        <tag>HEAD</tag>
+        <tag>papaja-1.0.0-RC0</tag>
     </scm>
 
     <distributionManagement>
@@ -65,9 +66,6 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-            <properties>
-                <gpg.keyname>6C8F8B5C8F7D5F93</gpg.keyname>
-            </properties>
         </profile>
     </profiles>
 
