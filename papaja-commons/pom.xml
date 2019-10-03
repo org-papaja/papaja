@@ -9,9 +9,9 @@
     </parent>
 
     <artifactId>papaja-commons</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0-RELEASE</version>
     <packaging>jar</packaging>
-    <name>${project.groupId}-${project.artifactId}</name>
+    <name>${project.artifactId}</name>
 
     <properties>
         <apache.lang3.version>3.9</apache.lang3.version>
@@ -49,4 +49,8 @@
         </dependency>
     </dependencies>
 
+
+  <scm>
+    <tag>papaja-commons-1.0.0-RELEASE</tag>
+  </scm>
 </project>
