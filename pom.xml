@@ -5,12 +5,12 @@
     <groupId>org.papaja</groupId>
     <artifactId>papaja</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <name>PapaJa</name>
-    <description>PajaJa Framework</description>
+    <description>PapaJa Project</description>
     <organization>
-        <name>PapaJa</name>
+        <name>PapaJa Org</name>
         <url>https://github.com/org-papaja/papaja</url>
     </organization>
     <url>https://papaja.org/</url>
