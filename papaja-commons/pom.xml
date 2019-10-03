@@ -5,11 +5,11 @@
     <parent>
         <groupId>org.papaja</groupId>
         <artifactId>papaja-parent</artifactId>
-        <version>1.0.0.RELEASE</version>
+        <version>1.0.0-RELEASE</version>
     </parent>
 
     <artifactId>papaja-commons</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-RELEASE</version>
     <packaging>jar</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
 
@@ -24,7 +24,7 @@
     <scm>
         <url>https://github.com/org-papaja/papaja</url>
         <connection>scm:git:git@github.com:org-papaja/papaja.git</connection>
-        <tag>HEAD</tag>
+        <tag>papaja-parent-1.0.0-RELEASE</tag>
     </scm>
 
     <dependencies>
