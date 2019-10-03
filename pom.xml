@@ -37,11 +37,11 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh</id>
+            <id>OSSRH</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>ossrh</id>
+            <id>OSSRH</id>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/
             </url>
         </repository>
@@ -58,7 +58,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <gpg.keyname>papaja</gpg.keyname>
+                <gpg.keyname>6C8F8B5C8F7D5F93</gpg.keyname>
             </properties>
         </profile>
     </profiles>
@@ -98,7 +98,7 @@
                 </executions>
             </plugin>
 
-            <!-- Sources Plugin -->
+            <!-- JavaDoc Plugin -->
             <plugin>
                 <inherited>true</inherited>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -111,6 +111,15 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <source>8</source>
+                    <sourcepath>src/main/java</sourcepath>
+                    <show>protected</show>
+                    <failOnError>false</failOnError>
+                    <sourceFileExcludes>
+                        <sourceFileExclude>**/module-info.java</sourceFileExclude>
+                    </sourceFileExcludes>
+                </configuration>
             </plugin>
 
             <!-- GPG Sign Plugin -->
@@ -128,7 +137,7 @@
                         </goals>
                         <configuration>
                             <keyname>${gpg.keyname}</keyname>
-                            <passphraseServerId>ossrh</passphraseServerId>
+                            <passphraseServerId>OSSRH</passphraseServerId>
                         </configuration>
                     </execution>
                 </executions>
