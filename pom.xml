@@ -5,7 +5,7 @@
     <groupId>org.papaja</groupId>
     <artifactId>papaja</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0-RC1</version>
+    <version>1.0.0-RC2-SNAPSHOT</version>
 
     <name>PapaJa</name>
     <description>PapaJa Project</description>
@@ -42,7 +42,7 @@
         <url>https://github.com/org-papaja/papaja</url>
         <developerConnection>scm:git:git@github.com:org-papaja/papaja.git</developerConnection>
         <connection>scm:git:git@github.com:org-papaja/papaja.git</connection>
-        <tag>papaja-1.0.0-RC1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
