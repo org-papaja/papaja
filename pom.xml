@@ -5,12 +5,12 @@
     <groupId>org.papaja</groupId>
     <artifactId>papaja</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0-RC1</version>
+    <version>1.0.0.RC1-SNAPSHOT</version>
 
     <name>PapaJa</name>
     <description>PapaJa Project</description>
     <organization>
-        <name>PapaJa Org</name>
+        <name>PapaJa</name>
         <url>https://github.com/org-papaja/papaja</url>
     </organization>
     <url>https://papaja.org/</url>
@@ -40,9 +40,9 @@
 
     <scm>
         <url>https://github.com/org-papaja/papaja</url>
-        <developerConnection>scm:git:git://github.com/org-papaja/papaja</developerConnection>
-        <connection>scm:git:git://github.com/org-papaja/papaja</connection>
-        <tag>papaja-1.0.0-RC1</tag>
+        <developerConnection>scm:git:git@github.com:org-papaja/papaja.git</developerConnection>
+        <connection>scm:git:git@github.com:org-papaja/papaja.git</connection>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
@@ -58,7 +58,12 @@
     </distributionManagement>
 
     <modules>
-        <module>papaja-commons</module>
+        <module>papaja-tuple</module>
+        <module>papaja-function</module>
+        <module>papaja-geo</module>
+        <module>papaja-converter</module>
+        <module>papaja-data</module>
+        <module>papaja-util</module>
     </modules>
 
     <profiles>

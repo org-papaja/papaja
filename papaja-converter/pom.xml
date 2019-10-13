@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.papaja</groupId>
+        <artifactId>papaja</artifactId>
+        <version>1.0.0.RC1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>papaja-converter</artifactId>
+    <version>1.0.0-RC1</version>
+    <packaging>jar</packaging>
+
+    <name>PapaJa Converter</name>
+
+    <properties>
+        <apache.codec.version>1.13</apache.codec.version>
+        <fasterxml.jackson.version>2.9.10</fasterxml.jackson.version>
+        <papaja.function.version>1.0.0-RC1</papaja.function.version>
+        <papaja.tuple.version>1.0.0-RC1</papaja.tuple.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>${apache.codec.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${fasterxml.jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.papaja</groupId>
+            <artifactId>papaja-function</artifactId>
+            <version>${papaja.function.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.papaja</groupId>
+            <artifactId>papaja-tuple</artifactId>
+            <version>${papaja.tuple.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
