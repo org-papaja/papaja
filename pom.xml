@@ -64,6 +64,8 @@
         <module>papaja-converter</module>
         <module>papaja-data</module>
         <module>papaja-util</module>
+        <module>papaja-quick-sort</module>
+        <module>papaja-crypto</module>
     </modules>
 
     <profiles>
