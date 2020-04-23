@@ -16,7 +16,7 @@
 
     <properties>
         <apache.codec.version>1.13</apache.codec.version>
-        <fasterxml.jackson.version>2.9.10</fasterxml.jackson.version>
+        <fasterxml.jackson.version>2.9.10.4</fasterxml.jackson.version>
         <papaja.function.version>1.0.0-RC1</papaja.function.version>
         <papaja.tuple.version>1.0.0-RC1</papaja.tuple.version>
     </properties>
