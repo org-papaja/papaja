@@ -15,7 +15,7 @@
     <name>PapaJa Utils</name>
 
     <properties>
-        <apache.beanutils.version>1.9.3</apache.beanutils.version>
+        <apache.beanutils.version>1.9.4</apache.beanutils.version>
     </properties>
 
     <dependencies>
